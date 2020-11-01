@@ -44,7 +44,7 @@ body {
     padding: 5px 20px 4px 50px;
 }
 
-.header__btn::after{
+.header__contacts::after{
     content: "";
     clear: both;
     display: block;
