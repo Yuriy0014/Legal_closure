@@ -9,6 +9,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -19,7 +20,9 @@
                 <div class="header__contacts">
                     <a class="header__phone" href="tel:380963092145">+38 (096) 309 21 45</a>
                     <a class="header__email" href="#">layout585@gmail.com</a>
-                    <a class="header__btn" href="#">Бесплатная консультация</a>
+                    <a class="header__btn" data-fancybox data-src="#modal" href="javascript:;">
+                        Бесплатная консультация
+                      </a>
                 </div>
             </div>
         </div>
@@ -43,6 +46,18 @@
             </div>
         </div>
     </header>
+
+    <div style="display: none;" id="modal">
+        <form>
+          <input type="text" placeholder="Ваше имя">
+          <input type="text" placeholder="Ваш телефон">
+          <input type="submit" value="Отправить">
+        </form>
+      </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
