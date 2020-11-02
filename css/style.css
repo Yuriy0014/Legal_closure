@@ -126,3 +126,11 @@ body {
 #modal{
     display:none;
 }
+
+.slider{
+    background-image: url(../images/slider-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+}
