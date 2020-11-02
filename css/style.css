@@ -195,7 +195,29 @@ body {
 
 .slick-btn {
     position: absolute;
+    top: 70%;
+    cursor: pointer;
+    z-index: 2;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+    background-color: transparent;
+}
+
+.slick-btn:before {
+    font-family: 'icomoon';
+    position: absolute;
     top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;;
+}
+
+.slick-next:before{
+    content: "\f105";
+}
+.slick-prev:before{
+    content: "\f104";
 }
 
 .slick-next {
