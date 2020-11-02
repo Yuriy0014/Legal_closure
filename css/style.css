@@ -235,3 +235,53 @@ body {
 .slick-prev {
     left: 0;
 }
+
+.about {
+    padding: 50px 0 30px;
+}
+
+.about__top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__title-box {
+    max-width: 520px;
+    padding-left: 140px;
+    position: relative;
+}
+
+.about__title-box:before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 2px;
+    background-color: #ffc222;
+    left: 0;
+    top: 11px;
+}
+
+.about__title {
+    font-family: 'Roboto', sans-serif;
+    color: #212020;
+    font-size: 24px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+
+.about__text {
+    letter-spacing: 0.14px;
+}
+
+.about__btn {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #373636;
+    line-height: 24px;
+    letter-spacing: 0.35px;
+    padding: 8px 41px;
+    border: 3px solid #e6e6e6;
+}
