@@ -205,7 +205,7 @@ body {
     outline: none;
 }
 
-.slick-btn.slick-disabled{
+.slick-btn.slick-disabled {
     background-color: transparent;
     cursor: unset;
 }
@@ -216,13 +216,15 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #fff;;
+    color: #fff;
+    ;
 }
 
-.slick-next:before{
+.slick-next:before {
     content: "\f105";
 }
-.slick-prev:before{
+
+.slick-prev:before {
     content: "\f104";
 }
 
