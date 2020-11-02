@@ -243,6 +243,7 @@ body {
 .about__top {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 60px;
 }
 
 .about__title-box {
@@ -276,7 +277,7 @@ body {
     letter-spacing: 0.14px;
 }
 
-.about__btn {
+.about__btn a{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     color: #373636;
@@ -284,4 +285,27 @@ body {
     letter-spacing: 0.35px;
     padding: 8px 41px;
     border: 3px solid #e6e6e6;
+}
+
+.about__items{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__item{
+    max-width: 360px;
+    text-align: center;
+    padding: 25px 0 40px ;
+}
+
+.about__item-title{
+
+}
+
+.about__item-text{
+
+}
+
+.about__item-btn{
+    
 }
