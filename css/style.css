@@ -188,3 +188,20 @@ body {
     transform: translateY(-50%);
     right: -12px;
 }
+
+.slider__inner {
+    position: relative;
+}
+
+.slick-btn {
+    position: absolute;
+    top: 50%;
+}
+
+.slick-next {
+    right: 0;
+}
+
+.slick-prev {
+    left: 0;
+}
