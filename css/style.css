@@ -236,23 +236,23 @@ body {
     left: 0;
 }
 
-.about {
+.services {
     padding: 50px 0 30px;
 }
 
-.about__top {
+.services__top {
     display: flex;
     justify-content: space-between;
     margin-bottom: 60px;
 }
 
-.about__title-box {
+.services__title-box {
     max-width: 520px;
     padding-left: 140px;
     position: relative;
 }
 
-.about__title-box:before {
+.services__title-box:before {
     content: "";
     position: absolute;
     width: 100px;
@@ -262,7 +262,7 @@ body {
     top: 11px;
 }
 
-.about__title {
+.services__title {
     font-family: 'Roboto', sans-serif;
     color: #212020;
     font-size: 24px;
@@ -273,11 +273,11 @@ body {
     margin-bottom: 15px;
 }
 
-.about__text {
+.services__text {
     letter-spacing: 0.14px;
 }
 
-.about__btn a{
+.services__btn a {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     color: #373636;
@@ -287,18 +287,22 @@ body {
     border: 3px solid #e6e6e6;
 }
 
-.about__items{
+.services__items {
     display: flex;
     justify-content: space-between;
 }
 
-.about__item{
+.services__item {
     max-width: 360px;
     text-align: center;
-    padding: 25px 0 40px ;
+    padding: 25px 0 80px;
+    position: relative;
+    background-color: #f9f9f9;
+    min-height: 360px;
+    box-shadow: 0 7px 24px 3px rgba(91, 89, 89, 0.14);
 }
 
-.about__item-title{
+.services__item-title {
     font-family: 'Roboto', sans-serif;
     color: #212020;
     font-size: 18px;
@@ -307,12 +311,29 @@ body {
     padding: 24px 0;
 }
 
-.about__item-text{
+.services__item-text {
     letter-spacing: 0.14px;
-    padding: 0 30px;
-    margin-bottom: 60px;
+    padding: 0 30px 30px;
 }
 
-.about__item-btn{
-    
+.services__item-btn {
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+}
+
+.services__item-btn .default-btn {
+    color: #373636;
+}
+
+.services__item-btn .default-btn:after {
+    color: #fff;
+}
+
+.services__item-link {
+    color: #050505;
+    font-family: 'Roboto', sans-serif;
+    border-bottom: 1px solid #050505;
+    margin-right: 60px;
 }
