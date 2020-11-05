@@ -418,26 +418,33 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.form__box-inner input{
+.form__box-inner input {
     margin-bottom: 8px;
-    outline:none;
+    outline: none;
     border: 1px solid #e6e6e6;
     height: 40px;
     padding: 0 10px;
 }
 
 .form__box-inner select {
-    outline:none;
+    outline: none;
     border: 1px solid #e6e6e6;
     height: 40px;
     padding-left: 17px;
 }
 
-.form__box-inner textarea{
+.form__box-inner textarea {
     padding: 10px;
-    outline:none;
+    outline: none;
     border: 1px solid #e6e6e6;
     height: 208px;
     resize: none;
+    margin-bottom: 42px;
 }
 
+.form__box-inner button{
+    background-color: transparent;
+    color: #282828;
+    outline: none;
+    float: right;
+}
