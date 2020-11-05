@@ -7,7 +7,7 @@ $(function(){
     });
 
 
-
+    $('select').styler();
 
     
 });
