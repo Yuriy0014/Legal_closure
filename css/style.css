@@ -246,13 +246,13 @@ body {
     margin-bottom: 60px;
 }
 
-.services__title-box {
+.title-box {
     max-width: 520px;
     padding-left: 140px;
     position: relative;
 }
 
-.services__title-box:before {
+.title-box:before {
     content: "";
     position: absolute;
     width: 100px;
@@ -262,7 +262,7 @@ body {
     top: 11px;
 }
 
-.services__title {
+.title {
     font-family: 'Roboto', sans-serif;
     color: #212020;
     font-size: 24px;
@@ -273,7 +273,7 @@ body {
     margin-bottom: 15px;
 }
 
-.services__text {
+.title-text {
     letter-spacing: 0.14px;
 }
 
@@ -369,4 +369,8 @@ body {
 
 .about__btn.default-btn:after {
     color: #000;
+}
+
+.form__content{
+    margin: 45px 0;
 }
