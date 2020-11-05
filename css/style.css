@@ -394,13 +394,50 @@ body {
 
 .form__box-left {
     max-width: 264px;
+    width: 100%;
 }
 
 .form__box-rigth {
     max-width: 560px;
+    width: 100%;
 }
 
-.form__box-inner label, 
-.form__box-inner input {
-    display: block;
+.form__btn {
+    margin-top: 38px;
 }
+
+.form__box-inner label, .form__box-inner input, .form__box-inner textarea, .form__box-inner select {
+    display: block;
+    width: 100%;
+}
+
+.form__box-inner label {
+    color: #282828;
+    font-family: Roboto;
+    line-height: 36px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form__box-inner input{
+    margin-bottom: 8px;
+    outline:none;
+    border: 1px solid #e6e6e6;
+    height: 40px;
+    padding: 0 10px;
+}
+
+.form__box-inner select {
+    outline:none;
+    border: 1px solid #e6e6e6;
+    height: 40px;
+    padding-left: 17px;
+}
+
+.form__box-inner textarea{
+    padding: 10px;
+    outline:none;
+    border: 1px solid #e6e6e6;
+    height: 208px;
+    resize: none;
+}
+
