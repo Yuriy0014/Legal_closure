@@ -406,7 +406,7 @@ body {
     margin-top: 38px;
 }
 
-.form__box-inner label, .form__box-inner input, .form__box-inner textarea, .form__box-inner select {
+.form__box-inner label, .form__box-inner input, .form__box-inner textarea{
     display: block;
     width: 100%;
 }
@@ -431,6 +431,26 @@ body {
     border: 1px solid #e6e6e6;
     height: 40px;
     padding-left: 17px;
+}
+
+.form__box-inner .jq-selectbox.jqselect {
+    display: block;
+    width: 100%;
+}
+
+.form__box-inner .jq-selectbox__select {
+    border: 1px solid #e6e6e6;
+    height: 40px;
+    padding-left: 17px;
+}
+
+.form__box-inner .jq-selectbox__trigger-arrow:before{
+    content: "\f105";
+    font-family: 'icomoon';
+    position: absolute;
+    right: 17px;
+    top: 0;
+    transform: rotate(90deg);
 }
 
 .form__box-inner textarea {
