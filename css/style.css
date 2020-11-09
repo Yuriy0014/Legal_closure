@@ -567,4 +567,21 @@ body {
 
 .news {
     padding: 70px 0 105px;
+    background-color: #f9f9f9;
+}
+
+.news__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.news__slider {
+    max-width: 560px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.news__blog{
+    max-width: 260px;
+    width: 100%;
 }
