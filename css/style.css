@@ -406,7 +406,7 @@ body {
     margin-top: 38px;
 }
 
-.form__box-inner label, .form__box-inner input, .form__box-inner textarea{
+.form__box-inner label, .form__box-inner input, .form__box-inner textarea {
     display: block;
     width: 100%;
 }
@@ -444,7 +444,7 @@ body {
     padding-left: 17px;
 }
 
-.form__box-inner .jq-selectbox__trigger-arrow:before{
+.form__box-inner .jq-selectbox__trigger-arrow:before {
     content: "\f105";
     font-family: 'icomoon';
     position: absolute;
@@ -454,37 +454,42 @@ body {
 }
 
 .form__box-inner .jq-selectbox__dropdown {
-	width: 100%;
-	margin: 2px 0 0;
-	padding: 0;
-	border: 1px solid #e6e6e6;
-	border-radius: 4px;
-	background: #FFF;
-	box-shadow: 0 2px 10px rgba(0,0,0,.2);
+    width: 100%;
+    margin: 2px 0 0;
+    padding: 0;
+    border: 1px solid #e6e6e6;
+    border-radius: 4px;
+    background: #FFF;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .2);
 }
 
 .form__box-inner .jq-selectbox ul {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
+
 .form__box-inner .jq-selectbox li {
-	min-height: 18px;
-	padding: 5px 17px 6px;
-	color: #231F20;
+    min-height: 18px;
+    padding: 5px 17px 6px;
+    color: #231F20;
 }
+
 .form__box-inner .jq-selectbox li.selected {
-	background-color: #A3ABB1;
-	color: #FFF;
+    background-color: #A3ABB1;
+    color: #FFF;
 }
+
 .form__box-inner .jq-selectbox li:hover {
-	background-color: #08C;
-	color: #FFF;
+    background-color: #08C;
+    color: #FFF;
 }
+
 .form__box-inner .jq-selectbox li.disabled {
-	color: #AAA;
+    color: #AAA;
 }
+
 .form__box-inner .jq-selectbox li.disabled:hover {
-	background: none;
+    background: none;
 }
 
 .form__box-inner textarea {
@@ -496,9 +501,66 @@ body {
     margin-bottom: 4px;
 }
 
-.form__box-inner button{
+.form__box-inner button {
     background-color: transparent;
     color: #282828;
     outline: none;
     float: right;
+}
+
+.advantages {
+    padding: 55px 0 40px;
+    background-image: url(../images/advantages-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 285px;
+}
+
+.advantages__inner {
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.advantages-item {
+    max-width: 360px;
+    padding: 0 20px;
+}
+
+.advantages__title {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    padding: 60px 0 25px;
+    position: relative;
+}
+
+.advantages__title:before {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #ffc222;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.advantages__title:after {
+    font-family: 'icomoon';
+    content: "\f00c";
+    position: absolute;
+    font-size: 14px;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.advantages__text {
+    color: #d3d2d2;
+    line-height: 24px;
+    letter-spacing: 0.14px;
 }
