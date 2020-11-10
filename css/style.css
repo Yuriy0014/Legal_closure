@@ -797,22 +797,26 @@ body {
     display: none;
 }
 
-.slider .slick-dots {
+.slider .slick-dots,
+.news__slider .slick-dots {
     display: flex;
     justify-content: center;
     margin-top: 10px;
 }
 
-.slider .slick-dots li {
+.slider .slick-dots li,
+.news__slider .slick-dots li {
     list-style: none;
     margin: 0 10px;
 }
 
-.slider .slick-dots button {
+.slider .slick-dots button,
+.news__slider .slick-dots button {
     font-family: 'Roboto', sans-serif;
     font-size: 0;
+    padding: 0;
     width: 10px;
-    height: 12px;
+    height: 10px;
     background-color: #fff;
     border-radius: 50%;
     border-width: 0;
@@ -820,9 +824,11 @@ body {
     border-color: transparent;
     border-image: none;
     outline: none;
+    border: 1px solid #5e5e5e;
 }
 
-.slider .slick-dots li.slick-active button {
+.slider .slick-dots li.slick-active button,
+.news__slider .slick-dots li.slick-active button {
     background-color: #ffc222;
     outline: none;
 }

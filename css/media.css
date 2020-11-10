@@ -14,6 +14,26 @@
     .form__box {
         margin: 0 auto;
     }
+    .news__inner {
+        display: block;
+    }
+    .news__slider {
+        max-width: 100%;
+        margin-bottom: 70px;
+    }
+    .news__blog {
+        max-width: 100%;
+        display: block;
+        margin-bottom: 30px;
+    }
+    .news__blog:after {
+        content: "";
+        clear: both;
+        display: block;
+    }
+    .news__images {
+        float: left;
+    }
 }
 
 @media (max-width: 900px) {
@@ -119,7 +139,7 @@
     }
     .advantages-item {
         padding: 0;
-        }
+    }
 }
 
 @media (min-width: 700px) {
