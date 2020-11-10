@@ -792,3 +792,7 @@ body {
     background-color: #ffc222;
     border: none;
 }
+
+.header__btn-menu {
+    display: none;
+}
