@@ -746,12 +746,11 @@ body {
 
 .footer__list a:before {
     font-family: 'icomoon';
-    content:"\f003";
+    content: "\f003";
     position: absolute;
     left: 0;
     color: #ffc222;
 }
-
 
 .footer__list .footer__phone:before {
     content: "\f095";
@@ -772,4 +771,24 @@ body {
     line-height: 24px;
     letter-spacing: 0.6px;
     padding: 10px 0;
+}
+
+#modal {
+    width: 300px;
+}
+
+#modal input {
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    outline: none;
+    border: 1px solid #e6e6e6;
+    height: 40px;
+    padding: 0 10px;
+}
+
+#modal input[type="submit"] {
+    background-color: #ffc222;
+    border: none;
 }
