@@ -650,7 +650,7 @@ body {
     margin-bottom: 20px;
 }
 
-.news__slider-text{
+.news__slider-text {
     color: #5e5e5e;
     letter-spacing: 0.14px;
     margin-bottom: 40px;
@@ -661,4 +661,26 @@ body {
     font-weight: 500;
     color: #212020;
     letter-spacing: 0.14px;
+}
+
+.news__slider-inner .slick-btn {
+    top: auto;
+    bottom: -110px;
+}
+
+.news__slider-inner .slick-next {
+    right: -35px;
+}
+
+.news__slider-inner .slick-prev {
+    right: 20px;
+    left: auto;
+}
+
+.news__slider-inner .slick-disabled {
+    border: 1px solid #dadada;
+}
+
+.news__slider-inner .slick-disabled:before {
+    color: #dadada;
 }
