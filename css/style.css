@@ -819,6 +819,7 @@ body {
     border-style: none;
     border-color: transparent;
     border-image: none;
+    outline: none;
 }
 
 .slider .slick-dots li.slick-active button {
