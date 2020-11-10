@@ -35,7 +35,8 @@ body {
     background-color: #303030;
 }
 
-.header__btn {
+.header__btn,
+.footer__btn {
     float: right;
     font-size: 16px;
     font-weight: 400;
@@ -46,7 +47,8 @@ body {
     position: relative;
 }
 
-.header__btn:before {
+.header__btn:before,
+.footer__btn:before {
     content: "\f0b1";
     font-family: 'icomoon';
     position: absolute;
