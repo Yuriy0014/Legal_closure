@@ -6,8 +6,6 @@ $(function(){
         infinite: false
     });
 
-
     $('select').styler();
 
-    
 });
