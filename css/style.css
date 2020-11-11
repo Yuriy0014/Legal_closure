@@ -625,7 +625,6 @@ body {
 
 .news__blog-title {
     font-family: 'Roboto', sans-serif;
-    text-align: center;
     color: #242424;
     font-size: 16px;
     font-weight: 500;
@@ -637,7 +636,6 @@ body {
 .news__blog-text {
     color: #5e5e5e;
     letter-spacing: 0.14px;
-    max-width: 255px;
 }
 
 .news__slider-title {
@@ -797,21 +795,18 @@ body {
     display: none;
 }
 
-.slider .slick-dots,
-.news__slider .slick-dots {
+.slider .slick-dots, .news__slider .slick-dots {
     display: flex;
     justify-content: center;
     margin-top: 10px;
 }
 
-.slider .slick-dots li,
-.news__slider .slick-dots li {
+.slider .slick-dots li, .news__slider .slick-dots li {
     list-style: none;
     margin: 0 10px;
 }
 
-.slider .slick-dots button,
-.news__slider .slick-dots button {
+.slider .slick-dots button, .news__slider .slick-dots button {
     font-family: 'Roboto', sans-serif;
     font-size: 0;
     padding: 0;
@@ -827,8 +822,7 @@ body {
     border: 1px solid #5e5e5e;
 }
 
-.slider .slick-dots li.slick-active button,
-.news__slider .slick-dots li.slick-active button {
+.slider .slick-dots li.slick-active button, .news__slider .slick-dots li.slick-active button {
     background-color: #ffc222;
     outline: none;
 }

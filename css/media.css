@@ -33,6 +33,7 @@
     }
     .news__images {
         float: left;
+        margin-right: 50px;
     }
 }
 
@@ -51,7 +52,7 @@
     .title-box:before {
         display: none;
     }
-    .services__btn {
+    .services__btn, .news__btn {
         text-align: center;
     }
     .form__box-inner {
@@ -118,6 +119,18 @@
     .services__item {
         max-width: 100%;
         min-height: 375px;
+    }
+}
+
+@media (max-width: 540px) {
+    .news__slider {
+        padding: 50px 15px 25px 25px;
+    }
+    .news__slider:before {
+        left: 25px;
+    }
+    .news__images {
+        float: none;
     }
 }
 
