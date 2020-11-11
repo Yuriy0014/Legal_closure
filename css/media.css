@@ -35,6 +35,25 @@
         float: left;
         margin-right: 50px;
     }
+    .news {
+        padding-bottom: 40px;
+    }
+}
+
+@media (max-width: 1060px) {
+    .footer__inner {
+        display: block;
+    }
+    .footer__content {
+        max-height: none;
+    }
+    .footer__map {
+        max-width: 100%;
+    }
+    .footer__info {
+        margin: auto;
+        text-align: center;
+    }
 }
 
 @media (max-width: 900px) {
